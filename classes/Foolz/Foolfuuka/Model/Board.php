@@ -387,7 +387,8 @@ class Board
 			if ( ! $this->radix->archive && $order !== 'ghost' && $page <= 10 && $per_page == 10)
 			{
 				list($results, $query_posts) = Cache::item('foolfuuka.model.board.getLatestComments.query.'
-					.$this->radix->shortname.'.'.$order.'.'.$page)->get();			}
+					.$this->radix->shortname.'.'.$order.'.'.$page)->get();
+			}
 			else
 			{
 				// lots of cases we don't want to handle go dynamic
