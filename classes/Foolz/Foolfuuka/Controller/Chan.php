@@ -87,6 +87,7 @@ class Chan
 
         // KEEP THIS IN SYNC WITH THE ONE IN THE POSTS ADMIN PANEL
         $to_bind = [
+            'request' => $request,
             'user_name' => $name,
             'user_email' => $email,
             'user_pass' => $pass,

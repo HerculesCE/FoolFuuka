@@ -1,0 +1,31 @@
+{
+	"name": "foolz/foolfuuka-theme-foolfuukatwo",
+	"type": "foolz-foolfuuka-theme",
+	"description": "The default FoolFuuka 2.0 theme.",
+	"version": "2.0.4",
+	"keywords": ["theme", "default", "foolfuuka"],
+	"homepage": "http://www.foolz.us",
+	"license": "Apache-2.0",
+	"authors": [{"name": "foolz", "email": "support@foolz.us"}],
+	"support": {
+		"email": "support@foolz.us",
+		"irc": "irc://irc.irchighway.net/fooldriver"
+	},
+	"require": {
+		"php": ">=5.4.0",
+		"foolz/theme": "dev"
+	},
+	"autoload": {
+		"psr-0": {
+			"Foolz\\Foolfuuka\\Theme\\Foolfuukatwo": "classes/"
+		}
+	},
+	"extra": {
+		"name" : "FoolFuuka Two",
+        "extends": "foolz/foolfuuka-theme-foolfuuka",
+		"styles": {
+			"default": "Default",
+			"midnight": "Midnight"
+		}
+	}
+}
